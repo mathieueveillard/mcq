@@ -37,5 +37,9 @@
   "bugs": {
     "url": "https://github.com/mathieueveillard/js-kata-starter/issues"
   },
-  "homepage": "https://github.com/mathieueveillard/js-kata-starter#readme"
+  "homepage": "https://github.com/mathieueveillard/js-kata-starter#readme",
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "uuid": "^8.3.2"
+  }
 }
