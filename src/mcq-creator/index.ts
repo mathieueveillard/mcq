@@ -8,7 +8,7 @@ export type AtLeastTwoChoices = [Choice, Choice, ...Choice[]];
 export interface Question {
   id: string;
   label: string;
-  type: "SINGLE_CHOICE_QUESTION" | "MULTIPLE_CHOICES_QUESTION";
+  type: "SINGLE_ANSWER_QUESTION" | "MULTIPLE_ANSWERS_QUESTION";
   choices: AtLeastTwoChoices;
 }
 
